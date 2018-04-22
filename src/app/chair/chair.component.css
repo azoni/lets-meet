@@ -1,0 +1,24 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+th {
+    border: 1px solid black ;
+    width: 250px;
+    height: 250px;
+    color: #ffffff;
+    font-size: 200%;
+    margin: 12px 12px 12px 12px;
+}
+
+table {
+    border-spacing: 25px;
+}
+
+h1 {
+    color: rgb(83, 85, 88);
+    font-size: 325%;
+}
+
+.chair1 {
+    background-color: #999B9E ;
+}

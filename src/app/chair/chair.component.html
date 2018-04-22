@@ -1,0 +1,16 @@
+<body>
+  <h1 align='center'>Conference Room 1C</h1>
+  <table align = "center" id="table1">
+          <tr>
+              <div *ngIf="bool">
+                  <th class = "chair1" style="background: #999B9E;">Chair {{text}}</th>
+                </div>
+              <div *ngIf="!bool">
+                  <th class = "chair1" style="background: #e20074;">Chair {{text}}</th>
+                </div>
+          </tr>
+      </table>
+  <!-- Load Javascript files at the end of the body. -->
+  <link href = "https://fonts.googleapis.com/css?family=Lato" />
+
+</body>

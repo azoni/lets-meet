@@ -1,0 +1,15 @@
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDfUCfAqI6pA1AHThlRFoeMN5GSdAgLP7E",
+    authDomain: "benchme-df59a.firebaseapp.com",
+    databaseURL: "https://benchme-df59a.firebaseio.com",
+    projectId: "benchme-df59a",
+    storageBucket: "benchme-df59a.appspot.com",
+    messagingSenderId: "436734107308"
+  };
+  firebase.initializeApp(config);
+
+  console.log(firebase.database().ref('/'));
+</script>
